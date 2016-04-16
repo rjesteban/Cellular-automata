@@ -19,7 +19,6 @@ for j in range(iterations):
         b = ''.join(x_old[i - 1: i + 2]) == '010'
         c = ''.join(x_old[i - 1: i + 2]) == '011'
         d = ''.join(x_old[i - 1: i + 2]) == '100'
-
         if a or b or c or d:
             x[i] = '1'
         else:
