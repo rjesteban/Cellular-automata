@@ -16,9 +16,7 @@ function draw() {
 
     for (i = 1; i < n + 1; i++) {
         if (x[i] == '1') {
-            //fillrect(col, row, pixel, pixel)
             ctx.fillRect(i - 1, 0, 1, 1);
-            console.log('yes');
         }
     }
 
@@ -38,11 +36,9 @@ function draw() {
         }
         x[0] = x[n];
         x[n + 1] = x[1];
-        //print ''.join(x[1:n+1])
         for(i = 1; i < n + 1; i++) {
             if(x[i] == 1) {
                 ctx.fillRect(i,j, 1, 1);
-                console.log('yesyes');
             }
         }
     }
