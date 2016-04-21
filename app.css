@@ -1,0 +1,11 @@
+#canvas {
+  width: 1000px;
+  height: 500px;
+  border: 1px solid #000;
+}
+body {
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+}
