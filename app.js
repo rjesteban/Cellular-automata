@@ -12,7 +12,7 @@ function draw() {
 
     for (i = 1; i < n + 1; i++) {
         if (x[i] == '1') {
-            ctx.fillRect(i - 1, 0, 1, 1);
+            ctx.fillRect(i, 0, 1, 1);
             console.log('*')
         }
     }
